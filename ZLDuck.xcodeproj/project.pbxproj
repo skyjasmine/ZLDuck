@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962D3E0E25123791000C7583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E0D25123791000C7583 /* main.m */; };
+		962D3E172512F8CA000C7583 /* ZLDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E162512F8CA000C7583 /* ZLDuck.m */; };
+		962D3E1A2512FE71000C7583 /* ZLMallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E192512FE71000C7583 /* ZLMallardDuck.m */; };
+		962D3E1F251300C2000C7583 /* ZLFlyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E1E251300C2000C7583 /* ZLFlyFactory.m */; };
+		962D3E2225130878000C7583 /* ZLQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E2125130878000C7583 /* ZLQuack.m */; };
+		962D3E252513092A000C7583 /* ZLMuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E242513092A000C7583 /* ZLMuteQuack.m */; };
+		962D3E2B2513098D000C7583 /* ZLSqueak.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E2A2513098D000C7583 /* ZLSqueak.m */; };
+		962D3E2E251309D2000C7583 /* ZLQuackFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E2D251309D2000C7583 /* ZLQuackFactory.m */; };
+		962D3E3125130C4E000C7583 /* ZLFlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E3025130C4E000C7583 /* ZLFlyNoWay.m */; };
+		962D3E3425130CE8000C7583 /* ZLFLyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E3325130CE8000C7583 /* ZLFLyWithWings.m */; };
+		962D3E3725137CB3000C7583 /* ZLModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E3625137CB3000C7583 /* ZLModelDuck.m */; };
+		962D3E3A25137D84000C7583 /* ZLFlyRocketPowered.m in Sources */ = {isa = PBXBuildFile; fileRef = 962D3E3925137D84000C7583 /* ZLFlyRocketPowered.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		962D3E0825123791000C7583 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		962D3E0A25123791000C7583 /* ZLDuck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZLDuck; sourceTree = BUILT_PRODUCTS_DIR; };
+		962D3E0D25123791000C7583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962D3E152512F8CA000C7583 /* ZLDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLDuck.h; sourceTree = "<group>"; };
+		962D3E162512F8CA000C7583 /* ZLDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLDuck.m; sourceTree = "<group>"; };
+		962D3E182512FE71000C7583 /* ZLMallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMallardDuck.h; sourceTree = "<group>"; };
+		962D3E192512FE71000C7583 /* ZLMallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMallardDuck.m; sourceTree = "<group>"; };
+		962D3E1B25130039000C7583 /* ZLFlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFlyBehavior.h; sourceTree = "<group>"; };
+		962D3E1C25130049000C7583 /* ZLQuackBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLQuackBehavior.h; sourceTree = "<group>"; };
+		962D3E1D251300C2000C7583 /* ZLFlyFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFlyFactory.h; sourceTree = "<group>"; };
+		962D3E1E251300C2000C7583 /* ZLFlyFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFlyFactory.m; sourceTree = "<group>"; };
+		962D3E2025130878000C7583 /* ZLQuack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLQuack.h; sourceTree = "<group>"; };
+		962D3E2125130878000C7583 /* ZLQuack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLQuack.m; sourceTree = "<group>"; };
+		962D3E232513092A000C7583 /* ZLMuteQuack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMuteQuack.h; sourceTree = "<group>"; };
+		962D3E242513092A000C7583 /* ZLMuteQuack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMuteQuack.m; sourceTree = "<group>"; };
+		962D3E292513098D000C7583 /* ZLSqueak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSqueak.h; sourceTree = "<group>"; };
+		962D3E2A2513098D000C7583 /* ZLSqueak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSqueak.m; sourceTree = "<group>"; };
+		962D3E2C251309D2000C7583 /* ZLQuackFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLQuackFactory.h; sourceTree = "<group>"; };
+		962D3E2D251309D2000C7583 /* ZLQuackFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLQuackFactory.m; sourceTree = "<group>"; };
+		962D3E2F25130C4E000C7583 /* ZLFlyNoWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFlyNoWay.h; sourceTree = "<group>"; };
+		962D3E3025130C4E000C7583 /* ZLFlyNoWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFlyNoWay.m; sourceTree = "<group>"; };
+		962D3E3225130CE8000C7583 /* ZLFLyWithWings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFLyWithWings.h; sourceTree = "<group>"; };
+		962D3E3325130CE8000C7583 /* ZLFLyWithWings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFLyWithWings.m; sourceTree = "<group>"; };
+		962D3E3525137CB3000C7583 /* ZLModelDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLModelDuck.h; sourceTree = "<group>"; };
+		962D3E3625137CB3000C7583 /* ZLModelDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLModelDuck.m; sourceTree = "<group>"; };
+		962D3E3825137D84000C7583 /* ZLFlyRocketPowered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFlyRocketPowered.h; sourceTree = "<group>"; };
+		962D3E3925137D84000C7583 /* ZLFlyRocketPowered.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFlyRocketPowered.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962D3E0725123791000C7583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962D3E0125123791000C7583 = {
+			isa = PBXGroup;
+			children = (
+				962D3E0C25123791000C7583 /* ZLDuck */,
+				962D3E0B25123791000C7583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962D3E0B25123791000C7583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962D3E0A25123791000C7583 /* ZLDuck */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962D3E0C25123791000C7583 /* ZLDuck */ = {
+			isa = PBXGroup;
+			children = (
+				962D3E0D25123791000C7583 /* main.m */,
+				962D3E152512F8CA000C7583 /* ZLDuck.h */,
+				962D3E162512F8CA000C7583 /* ZLDuck.m */,
+				962D3E1D251300C2000C7583 /* ZLFlyFactory.h */,
+				962D3E1E251300C2000C7583 /* ZLFlyFactory.m */,
+				962D3E2F25130C4E000C7583 /* ZLFlyNoWay.h */,
+				962D3E3025130C4E000C7583 /* ZLFlyNoWay.m */,
+				962D3E3225130CE8000C7583 /* ZLFLyWithWings.h */,
+				962D3E3325130CE8000C7583 /* ZLFLyWithWings.m */,
+				962D3E182512FE71000C7583 /* ZLMallardDuck.h */,
+				962D3E192512FE71000C7583 /* ZLMallardDuck.m */,
+				962D3E232513092A000C7583 /* ZLMuteQuack.h */,
+				962D3E242513092A000C7583 /* ZLMuteQuack.m */,
+				962D3E2025130878000C7583 /* ZLQuack.h */,
+				962D3E2125130878000C7583 /* ZLQuack.m */,
+				962D3E2C251309D2000C7583 /* ZLQuackFactory.h */,
+				962D3E2D251309D2000C7583 /* ZLQuackFactory.m */,
+				962D3E292513098D000C7583 /* ZLSqueak.h */,
+				962D3E2A2513098D000C7583 /* ZLSqueak.m */,
+				962D3E1B25130039000C7583 /* ZLFlyBehavior.h */,
+				962D3E1C25130049000C7583 /* ZLQuackBehavior.h */,
+				962D3E3525137CB3000C7583 /* ZLModelDuck.h */,
+				962D3E3625137CB3000C7583 /* ZLModelDuck.m */,
+				962D3E3825137D84000C7583 /* ZLFlyRocketPowered.h */,
+				962D3E3925137D84000C7583 /* ZLFlyRocketPowered.m */,
+			);
+			path = ZLDuck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962D3E0925123791000C7583 /* ZLDuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962D3E1125123791000C7583 /* Build configuration list for PBXNativeTarget "ZLDuck" */;
+			buildPhases = (
+				962D3E0625123791000C7583 /* Sources */,
+				962D3E0725123791000C7583 /* Frameworks */,
+				962D3E0825123791000C7583 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLDuck;
+			productName = Duck;
+			productReference = 962D3E0A25123791000C7583 /* ZLDuck */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962D3E0225123791000C7583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DingTalk;
+				TargetAttributes = {
+					962D3E0925123791000C7583 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 962D3E0525123791000C7583 /* Build configuration list for PBXProject "ZLDuck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962D3E0125123791000C7583;
+			productRefGroup = 962D3E0B25123791000C7583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962D3E0925123791000C7583 /* ZLDuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962D3E0625123791000C7583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962D3E3425130CE8000C7583 /* ZLFLyWithWings.m in Sources */,
+				962D3E252513092A000C7583 /* ZLMuteQuack.m in Sources */,
+				962D3E3A25137D84000C7583 /* ZLFlyRocketPowered.m in Sources */,
+				962D3E3725137CB3000C7583 /* ZLModelDuck.m in Sources */,
+				962D3E2B2513098D000C7583 /* ZLSqueak.m in Sources */,
+				962D3E172512F8CA000C7583 /* ZLDuck.m in Sources */,
+				962D3E0E25123791000C7583 /* main.m in Sources */,
+				962D3E2225130878000C7583 /* ZLQuack.m in Sources */,
+				962D3E3125130C4E000C7583 /* ZLFlyNoWay.m in Sources */,
+				962D3E1A2512FE71000C7583 /* ZLMallardDuck.m in Sources */,
+				962D3E2E251309D2000C7583 /* ZLQuackFactory.m in Sources */,
+				962D3E1F251300C2000C7583 /* ZLFlyFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		962D3E0F25123791000C7583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		962D3E1025123791000C7583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		962D3E1225123791000C7583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		962D3E1325123791000C7583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962D3E0525123791000C7583 /* Build configuration list for PBXProject "ZLDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962D3E0F25123791000C7583 /* Debug */,
+				962D3E1025123791000C7583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962D3E1125123791000C7583 /* Build configuration list for PBXNativeTarget "ZLDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962D3E1225123791000C7583 /* Debug */,
+				962D3E1325123791000C7583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962D3E0225123791000C7583 /* Project object */;
+}
