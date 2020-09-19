@@ -1,0 +1,2 @@
+# ZLDuck
+Strategy pattern exercise.
